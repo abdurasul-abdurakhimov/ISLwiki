@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel='icon' href='favicon (4).ico' type='image/x-icon'/ >
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/230f57439a.js" crossorigin="anonymous"></script>
+  <title>International Sales Law | Course Glossary</title>
+
+  <style>
+  
+  body {
+  font-size: 0.9rem;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background: #fff;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 55px;
+  align-items: center;
+  margin: auto auto;
+  background: #f8f9fa!important;
+}
+
+.header {
+  padding: 8px 16px;
+  margin-bottom: 2px;
+  color: white;
+  text-align: center;
+}
+
+
+#header-link {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+    
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 77%;
+  margin: 0% 8% 0% 12%;
+}
+
+.wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.words {
+  flex: 1 8%;
+  margin-top: 1%;
+  background: #FFF;
+  padding-top: 10px;
+  font-size: 1.1rem;
+  border: gainsboro 1px solid;
+  border-radius: 5px;
+}
+
+.word {
+  flex: 2;
+  border-top: gainsboro 1px solid;
+  border-radius: 5px 5px 1px 1px;
+  margin-left: 50px;
+  padding-left: 50px;
+  font-size: 1.2rem;
+  padding-right: 50px;
+  height: 75vh;
+  overflow-y: scroll;
+}
+
+#definition, #related  {
+  display: block;
+  padding: 20px;
+  margin-top: -14px;
+  font-size: 0.9rem;
+  list-style-type: none;
+  text-align: justify;
+  box-shadow: 0 1px 6px #ddd;
+  background: #fff;
+}
+
+#word_list {
+  margin-top: -10px;
+  max-height: 75vh;
+  overflow-y: scroll;
+  color: #000;
+}
+
+#word_list li {
+  line-height: 3.2rem;
+  border-bottom: 0.5px solid rgba(0,0,0,.125);
+  border-radius: 1px;
+  margin-left: -12%;
+  padding: 0px 24px;
+}
+
+li {
+  list-style-type: none;
+  line-height: 1.5rem;
+}
+
+#word_list li:hover {
+  cursor: pointer;
+  color: #000;
+  background: #f8f9fa;
+}
+
+
+
+ul {
+  margin-left: 0px;
+}
+
+h3 {
+  font-size: 1.3rem;
+  display: block;
+  padding: 7px 14px;
+  color: #333;
+  background: #f8f9fa;
+  box-shadow: 0 1px 6px #ddd;
+}
+
+#search {
+  display: inline-block;
+    width: 22%;
+    height: 1.6rem;
+    padding: 6px 12px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem 1px 1px .25rem;
+    margin: 1.5% 0% 0% 12%;
+}
+
+.search-button {
+  height: 2.40rem;
+  width: 3%;
+  background: #e9ecef;
+  color: #000;
+  border: #fff 0px solid;
+  border-radius: 0px 5px 5px 0px;
+  margin-left: -4px;
+  padding-bottom: 4px;
+}
+
+.search-button:hover {
+  cursor: pointer;
+}
+
+.fas {
+color: #343a40;
+font-size: 1.2rem;
+}
+
+#copyright {
+  flex: 0 1 100%;
+  padding-right: 10px;
+  height: 5vh;
+  text-align: right;
+  color: #000;
+  background: #fff;
+  border-top: #ddd 0.5px solid;
+  align-items: center;
+  box-shadow: 0 1px 6px #ddd;
+}
+
+
+.submit {
+  flex: 1;
+  align-items: center;
+  padding-left: 14px;
+  height: 40px;
+  color: #333;
+}
+
+.submit-button {
+  background: #f8f9fa;
+  color: #000;
+  border: #f8f9fa 1px solid;
+  height: 36px;
+  width: 170px;
+  padding: 8px 6px;
+  margin-bottom: 1px;
+  margin-top: 3px;
+  font-size: 1rem;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+  background-color: #f8f9fa;
+  border-color: #28a745;
+  border-radius: 5px;
+}
+
+.definitions {
+  margin-left: 42%;
+  margin-right: 48%;
+  margin-top: -40px;
+  margin-bottom: 1px;
+  background: #fff;
+  box-shadow: none;
+  padding: 8px 16px;
+  border: gainsboro 1px solid;
+  border-bottom: none;
+  border-radius: 5px;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+
+  </style>
+
+</head>
+<body>
+  <div class="main-header">
+  <div class="header">
+    <h1><a id="header-link" href="/">ISL | Course Glossary</a></h1>
+  </div>
+  <div class="submit">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdspsujuUXHmiQdoNLynDOZYaOKNSyu9nUi0Hs9_e9i8YQE8A/viewform?usp=sf_link" target="_blank"><button class="submit-button"><link rel="stylesheet">Submit a New Word</button></a>
+  </div>
+  </div>
+  <div class="search-function">
+    <div class=searchflex1>
+    <input type="text" id="search" placeholder="Search...">
+    <button class=search-button id="myBtn" onclick="search()"><i class="fas fa-search"></i></button>
+  </div>
+  <div class="searchflex2">
+      <h3 class="definitions">Definitions</h3>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="words">
+     
+
+      <ul id="word_list"></ul>
+
+    </div>
+    <div class="word">
+      <h3 id="word_text"></h3>
+      <p id="definition"></p>
+
+      <h3>Related words:</h3>
+      <li id="related"></li>
+    </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+  var dictionary = [
+                    {
+                      word:"anticipatory breach",
+                      def: ["Anticipatory Breach, is the concept that if in the days prior to the contracts conclusion it is obvious that one party will breach the contract the other party can declare avoidance, it is a principle covered by article 72. (Belal Ragab)"],
+                      rel:["N/A"]
+                    },
+                    {
+                      word:"attributes of personality",
+                      def:["● Capacity - the extent to which we can exercise our rights and fulfil our duties (Not being a minor, being allowed to represent);", "● Civil status;", "● Domicile;", "● Nationality; (Abdillahi Suleiman)"],
+                      rel:["N/A"]
+                    },
+                    {
+                      word: "avoidance",
+                      def: ["Under CISG, avoidance is similar to the two previous concepts where a part is allowed to terminate the contract by declaration if the other party breached the contract, if there are no other remedies to the contract, it is often seen as a last resort since it terminates the contract, the CISG has taken into account the consequences of avoidance and has strict requirements for avoidance, Avoidance is allowed under CISG in four conditions regulated by Article 49, Article 64, Article 72, and Article 73, I- the seller has breached the fundamentality of the contract. II- the buyer has breached the fundamentals of the contract. III- In a situation where either the seller or buyer will breach the fundamentals of the contract. IV- In a situation where an installment sale is in place, one can declare avoidance to a single instalment if the other party made a breach in the contract. (Belal Ragab)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word:"consensus ad idem",
+                      def:["A pact between parties to a contract on the true or exact meaning of the contract. This Latin phrase literally means 'agreement to the same thing'. Consensus ad idem occurs when the offer and acceptance process of the contract has been completed. In this stage, both parties have agreed to the terms of the contract including the obligations arising therein; (Iwejuo Uche Kingsley)"],
+                      rel:["Mutual assent", "Mutual agreement"]
+                    },
+                       {
+                         word: "delayed acceptance",
+                         def: ["Regulated by Article 18 and Article 21, Late acceptance is acceptance that arrive after the time for acceptance, there are different situations where late acceptance is acceptance occurs, one where the offeree has sent the acceptance with a mean that not ensured to reach the offeror in time, if the offeree is aware that his acceptance is going to be late than it is counted as a counter-offer and need to be confirmed by the other party. (Belal Ragab)"],
+                         rel: ["N/A"]
+                       },
+                    {
+                      word: "duty of a buyer",
+                      def: ["The duty of the buyer is to take all steps which could reasonably be expected to take delivery of the goods, and to pay for them. (Abdillahi Suleiman)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word:"duty of a seller",
+                      def:["The seller must deliver the goods, hand over any documents relating to them, and transfer the property in the goods, as required by the contract. (Abdillahi Suleimani)"],
+                      rel:["N/A"]
+                    },
+                       {
+                         word:"essential elements",
+                         def:["Capacity - (It is covered in General Part - Law of Personality - To some degree Family Law) (Law or Contract defines whether the person has capacity)", "○ Rights", "○ Duties", "● Consent - (Contract must be free - no duress ) (Consent must be clear - no errors, no fraud)", "○ Offer", "○ Acceptance", "● Object - (Defined by rights and obligations)(Must be valid, everything allowed by law is valid) (Limitations for object would be law and good customs) (it should be licit)", "○ Doing something", "○ Not Doing something", "○ Transferring property", "● Cause - (Doesn’t correspond to consideration) (Why you are contracting?) (Cause may create obligations outside the contract or rights and obligations to third parties)", "● Formalities (Formality) - (Formalities that law establishes for certain types of contract. For example marriage contract); (Abdillahi Suleiman)"],
+                         rel:["N/A"]
+                       },
+                    {
+                      word: "good faith",
+                      def: ["Regulated by Article 7, the principle of good faith is that the contract should be carried out with no ill intent or malice. (Belal Ragab)"],
+                      rel: ["N/A"]
+                    },
+                       {
+                         word: "obligations of a buyer",
+                         def: ["Articles 53 till 60 covers the rights and obligations of the buyer, like the buyer's obligation to take the goods and pay the price the contract stated for the goods, the buyer is also obliged to make sure that the money for the contract is paid, the buyer is also responsible for taking the delivery and make payment in the correct time and place. (Belal Ragab)"],
+                         rel: ["N/A"]
+                       },
+                    {
+                      word:"obligations of a seller",
+                      def:["Articles 30 till 50 of the CISG among other things cover the seller's rights and obligations, the seller must deliver the goods, give the buyer any document related to the good or property, the seller is obliged to making the goods available to the buyer if the contract involves transferring the goods, the seller is also responsible for the goods till he gives it to the buyer or someone the buyer has clearly given his right to receive to. (Belal Ragab)"],
+                      rel:["N/A"]
+                    },
+                    {
+                      word: "passing of risk",
+                      def: ["Regulated by Articles 67 to 69, the principle of passing of risk is simple where the once the goods are sold, they are the seller’s risk until the goods are transferred to the buyer, once it is given to the buyer the goods are the buyer’s risk even if the delivery was not complete. (Belal Ragab)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "post contractual obligations",
+                      def: ["1) Performance;", "2) Breach;", "3) Renegotiation;", "4) Dispute Resolution; (Abdillahi Suleiman)"],
+                      rel: ["N/A"]
+                    },
+                       {
+                         word: "revocation",
+                         def: ["Concept of revocation is similar to that of the withdrawal of acceptance. This concept allows the offeror to revoke the offer before it reaches the offeree. Circumstances of the case may change which may lead to offeror desiring to void his or her offer. Revocation allows for more flexibility in the market by providing the offeror with means of withdrawing from undesirable contracts. Just like with withdrawal of acceptance revocation of offer becomes a race of time due to the posting rule. Revocation of offer must reach offeree before he or she issues acceptance. This concept is covered by art 16 of CISG. Article 16 not only shows prerequisites of revocation, but also gives the conditions under which revocation is not possible. This would give leverage tools to offerees, who would still want this contract to happen. (Belal Ragab)"],
+                         rel: ["N/A"]
+                       },
+                    {
+                      word:"right of remedy",
+                      def:["The right to remedy is regulated by Article 45, right for remedy is the main principle in CISG because its aim is to keep the contract alive, the right to remedy should be seen as the first option to do once the contract has been breached. (Belal Ragab)"],
+                      rel:["N/A"]
+                    },
+                       {
+                         word: "source of obligation",
+                         def: ["● Law;", "● Contracts;", "● Torts;", "● Delects;", "● Quasi-delects; (Abdillahi Suleiman)"],
+                         rel: ["Rule", "Norm", "Law"]
+                       },
+                    {
+                      word: "types of contract",
+                      def: ["-Unilateral or bilateral- who has obligations;", "-Onerous or Gratuitous – sale of goods is always onerous there is a price and an exchange;", "-Principal or accessory – I.e if sale of property fails then mortgage also fails since it depends on the others;", "-Real –Solemn – Consensual- Real requires effective transfer of property via registration. Solemnities- requires witnesses. Consensual- perfected via agreement most contracts around the world are consensual; (Abdillahi Suleiman)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "validity",
+                      def: ["Link for the chart:", "https://drive.google.com/file/d/1FRIkynCxPz2UmnfSs3n4F94FG6tEmq12/view?usp=sharing", "", "___________________", "(Abdillahi Suleiman)"],
+                      rel: ["Legitimacy"]
+                    },
+                    {
+                      word:"withdrawal of acceptance",
+                      def:["The concept of withdrawal of acceptance is a concept common to both Traditional Civil Law and Traditional Common Law systems. The main idea behind it is to allow the party that issued acceptance to withdraw said acceptance if it so desires. The main criterion there would be that withdrawal of acceptance reaches the offeror either before or at the same time as acceptance. Withdrawal of acceptance would not work with regards to acceptance given in person or acceptance given by phione. Most likely this concept would be used when acceptance is given by mail or e-mail. It would be a typical issue of the Posting Rule when acceptance only becomes valid when it reaches the offeror. If withdrawal of acceptance is issued it turns into the race of time, whether the acceptance or withdrawal of acceptance reaches the offeror first. This concept is covered by art 22 of CISG. (Belal Ragab)"],
+                      rel:["N/A"]
+                    }
+  ];
+
+  // Fill the dictionary with words
+  init = function(){
+    for (var i = 0; i < dictionary.length; i++) {
+      document.getElementById('word_list').innerHTML += "<li onclick='show("+ i +")'>" + dictionary[i].word + "</li>";
+      }
+  }
+
+  // call the init function when page loads
+  init();
+
+  show = function(i){
+    document.getElementById('word_text').innerHTML = dictionary[i].word;
+    
+     var define = "";
+
+      for (var p = 0; p < dictionary[i].def.length; p++) {
+        define += "<li>" + dictionary[i].def[p] + "</li>";
+        document.getElementById('definition').innerHTML = define;
+      }
+    
+//     document.getElementById('definition').innerHTML = dictionary[i].def;
+
+    var list = "";
+
+    for (var j = 0; j < dictionary[i].rel.length; j++) {
+      list += `<li class="item">${dictionary[i].rel[j]}</li>`;
+      document.getElementById('related').innerHTML = list;
+    }
+  }
+  // show first word in the dictionary when page loads
+    show(0);
+
+  // search functionality
+  search = function() {
+    query = document.getElementById('search').value.toLowerCase()
+    console.log(query)
+
+    if (query =="") {
+      return;
+    }
+
+    found = -1; // initialize found to false
+
+    for (var i = 0; i < dictionary.length; i++) {
+      if (query == dictionary[i].word.toLowerCase()) {
+        found = i;
+        break;
+      } else {
+        document.getElementById('word_text').innerHTML = "Word not found";
+        document.getElementById('definition').innerHTML = "The word you entered is not found in our glossary";
+        document.getElementById('related').innerHTML = "No related terms";
+      }
+    }
+    if (found >=0) {
+      show(found);
+    }
+  }
+
+</script>
