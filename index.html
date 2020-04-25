@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel='icon' href='favicon (4).ico' type='image/x-icon'/ >
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/230f57439a.js" crossorigin="anonymous"></script>
+  <title>International Sales Law | Course Glossary</title>
+
+  <style>
+  
+  body {
+  font-size: 0.9rem;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background: #fff;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 55px;
+  align-items: center;
+  margin: auto auto;
+  background: #f8f9fa!important;
+}
+
+.header {
+  padding: 8px 16px;
+  margin-bottom: 2px;
+  color: white;
+  text-align: center;
+}
+
+
+#header-link {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+    
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 77%;
+  margin: 0% 8% 0% 12%;
+}
+
+.wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.words {
+  flex: 1 8%;
+  margin-top: 1%;
+  background: #FFF;
+  padding-top: 10px;
+  font-size: 1.1rem;
+  border: gainsboro 1px solid;
+  border-radius: 5px;
+}
+
+.word {
+  flex: 2;
+  border-top: gainsboro 1px solid;
+  border-radius: 5px 5px 1px 1px;
+  margin-left: 50px;
+  padding-left: 50px;
+  font-size: 1.2rem;
+  padding-right: 50px;
+  height: 75vh;
+  overflow-y: scroll;
+}
+
+#definition, #related  {
+  display: block;
+  padding: 20px;
+  margin-top: -14px;
+  font-size: 0.9rem;
+  list-style-type: none;
+  text-align: justify;
+  box-shadow: 0 1px 6px #ddd;
+  background: #fff;
+}
+
+#word_list {
+  margin-top: -10px;
+  max-height: 75vh;
+  overflow-y: scroll;
+  color: #000;
+}
+
+#word_list li {
+  line-height: 3.2rem;
+  border-bottom: 0.5px solid rgba(0,0,0,.125);
+  border-radius: 1px;
+  margin-left: -12%;
+  padding: 0px 24px;
+}
+
+li {
+  list-style-type: none;
+  line-height: 1.5rem;
+}
+
+#word_list li:hover {
+  cursor: pointer;
+  color: #000;
+  background: #f8f9fa;
+}
+
+
+
+ul {
+  margin-left: 0px;
+}
+
+h3 {
+  font-size: 1.3rem;
+  display: block;
+  padding: 7px 14px;
+  color: #333;
+  background: #f8f9fa;
+  box-shadow: 0 1px 6px #ddd;
+}
+
+#search {
+  display: inline-block;
+    width: 22%;
+    height: 1.6rem;
+    padding: 6px 12px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem 1px 1px .25rem;
+    margin: 1.5% 0% 0% 12%;
+}
+
+.search-button {
+  height: 2.40rem;
+  width: 3%;
+  background: #e9ecef;
+  color: #000;
+  border: #fff 0px solid;
+  border-radius: 0px 5px 5px 0px;
+  margin-left: -4px;
+  padding-bottom: 4px;
+}
+
+.search-button:hover {
+  cursor: pointer;
+}
+
+.fas {
+color: #343a40;
+font-size: 1.2rem;
+}
+
+#copyright {
+  flex: 0 1 100%;
+  padding-right: 10px;
+  height: 5vh;
+  text-align: right;
+  color: #000;
+  background: #fff;
+  border-top: #ddd 0.5px solid;
+  align-items: center;
+  box-shadow: 0 1px 6px #ddd;
+}
+
+
+.submit {
+  flex: 1;
+  align-items: center;
+  padding-left: 14px;
+  height: 40px;
+  color: #333;
+}
+
+.submit-button {
+  background: #f8f9fa;
+  color: #000;
+  border: #f8f9fa 1px solid;
+  height: 36px;
+  width: 170px;
+  padding: 8px 6px;
+  margin-bottom: 1px;
+  margin-top: 3px;
+  font-size: 1rem;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+  background-color: #f8f9fa;
+  border-color: #28a745;
+  border-radius: 5px;
+}
+
+.definitions {
+  margin-left: 42%;
+  margin-right: 48%;
+  margin-top: -40px;
+  margin-bottom: 1px;
+  background: #fff;
+  box-shadow: none;
+  padding: 8px 16px;
+  border: gainsboro 1px solid;
+  border-bottom: none;
+  border-radius: 5px;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+
+  </style>
+
+</head>
+<body>
+  <div class="main-header">
+  <div class="header">
+    <h1><a id="header-link" href="/">ISL | Course Glossary</a></h1>
+  </div>
+  <div class="submit">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdspsujuUXHmiQdoNLynDOZYaOKNSyu9nUi0Hs9_e9i8YQE8A/viewform?usp=sf_link" target="_blank"><button class="submit-button"><link rel="stylesheet">Submit a New Word</button></a>
+  </div>
+  </div>
+  <div class="search-function">
+    <div class=searchflex1>
+    <input type="text" id="search" placeholder="Search...">
+    <button class=search-button id="myBtn" onclick="search()"><i class="fas fa-search"></i></button>
+  </div>
+  <div class="searchflex2">
+      <h3 class="definitions">Definitions</h3>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="words">
+     
+
+      <ul id="word_list"></ul>
+
+    </div>
+    <div class="word">
+      <h3 id="word_text"></h3>
+      <p id="definition"></p>
+
+      <h3>Related words:</h3>
+      <li id="related"></li>
+    </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+  var dictionary = [
+                    {
+                      word:"arbitrator",
+                      def: ["An arbitrator is a third independent person who is officially chosen to settle a dispute. (Emilie Earl)"],
+                      rel:["N/A"]
+                    },
+                    {
+                      word:"acceptance",
+                      def:["With regard to Article 18-22 of the CISG, acceptance of an offer is where the party agrees to be mutually bound by the contract.The key element of one's acceptance is an 'indication of assent', where it consists of a statement or of other conduct.(Kaiszia Celestine)", "__________", "An acceptance is a declaration of intent by which a request for conclusion of a contract is affirmed without any reservation.(Fardowsa Aden)"],
+                      rel:["N/A"]
+                    },
+                    {
+                      word: "accidental elements of a contract",
+                      def: ["Accidental elements are those that aren’t really important in the formation of the contract, except that the accidental elements are usually the ones, as to why a contract is being formed in the first place, but they aren’t legally essential for the contract. They are the parts of the contract, that the parties agree between themselves.(Emilie Marjatta Earl)", "_________", "This may be defined those elements which are established in the contract by the contracting parties as they deem to be convenient; such as stipulations, clauses, terms and conditions.", "Terms: When?", "Conditions: Where future events were to happen could either create or terminate e.g. If your son graduates this semester, you will purchase an apartment for him.", "Mode: Where you sign an agreement. This can be regarded as a condition as it is a formality that is created. If the party agrees, then it becomes an essential element of the contract. e.g. could be how you prefer the person to be dressed etc.(Kaiszia Celestine)", "__________", "Accidental elements are party-dependent and composed of the accidental terms, conditions and modes of the contract. The terms allude to when something will happen and is a certain occurrence whereas conditions refers to the possibility of something happening and is not certain - conditions revolve around “if” statements rather than “when” statements. Finally, modes refer to how the contract will be carried out and will perhaps lead to being essential elements of the contract. If all parties to the contract agree to the proposed mode, it then becomes a term of the contract.(Pippa Attrill)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word:"animus contrahendi",
+                      def:["Refers to the intention to be bound by a contract and to accept contractual duties. (Max Vikman)"],
+                      rel:["N/A"]
+                    },
+                       {
+                         word: "anticipatory breach",
+                         def: ["A contractual party may declare avoidance of the contract, if it is clear from the circumstances that the other party will breach their duties prior to the date at which performance is to be rendered. (Max Vikman)"],
+                         rel: ["N/A"]
+                       },
+                    {
+                      word: "applicability",
+                      def: ["Applicability in terms of the legal definition, refers to the adherence a certain law or set of laws has to a specific case. The applicability may be set out in specific provisions of a treaty or convention which determines whether or not the provisions set out in said document can be applied to the case in question. The CISG, for instance, sets out its scope of application in Article 1 of the convention.(Pippa Attrill)", "__________", "In accordance to Article 1.1 of the CISG, the convention is applied to both parties, once their place of business resides in one of the agreed contracting states of the CISG or when private international law leads to the application of the CISG.(Kaiszia Celestine)", "________", "The field of application tells us where the contract can be applied and where it can not be applied. (Emilie Earl)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word:"arbitral awards",
+                      def:["Is the conclusion to which the arbitrators to a particular dispute have come into. Arbitral award is similar to a judgement given by a court, although it may be more widely applicable in comparison to national court judgements, which are often not enforceable transnationally. (Max Vikman)", "_________", "Refers to the Act by arbitration tribunal to determine merits in a case as described in Article 74–77 of CISG. (Fardowsa Aden)"],
+                      rel:["N/A"]
+                    },
+                       {
+                         word:"arbitration",
+                         def:["The means of resolving a conflict arising out of a reciprocal relationship in a private manner through arbitrators. In cross-border business relationships, conflicts are often resolved through arbitration, as it is faster. Any dispute that can be resolved by agreement between the parties can be referred to arbitration for a final decision. (Max Vikman)", "__________", "Arbitration may be defined as a procedure of dispute resolution with the aim of settling sales contract and other commercial disputes, where the parties agree that the arbitrators will make a binding decision on the dispute instead of resolving by litigation.(Kaiszia Celestine)", "__________", "It refers to an alternative form of resolving conflicts which are held to minimize the chance of attending court trial, and maintained by an individual or a group of individuals that are not judges. (Fardowsa Aden)", "__________", "Arbitration is a form of alternative dispute resolution, solving disputes outside of a court setting, with the use of an arbitrator who listens to the parties and will evaluate the circumstances to reach a resolution. It provides another option for a neutral “judgement” for parties who may not be able to come to an agreement about which jurisdiction should have competence. The choice of arbitration can either be written in the form of a clause in a contract providing the option for arbitration in the event of a dispute, or it may be submitted by the parties after a dispute already arises.(Pippa Attrill)", "_________", "Arbitration is a form of alternative dispute resolution, in which the parties agree to submit a dispute to an arbitrator who makes a decision on the dispute. This decision is binding.(Emilie Marjatta Earl)", "__________", "Reasons in favour of arbitration:", "• Arbitration provides a faster and more flexible way of resolving disputes. Parties can apply for a fast-track procedure and decide upon how many arbitrators they want to use in resolving their dilemma.", "• Arbitration provides a favourable solution in terms of confidentiality. Individuals and corporations may value this factor, in order to protect their reputation. Largely public court proceedings may cause indirect damage to businesses, which the parties wish to avoid.", "• The professionalism of arbitrators is valued over national court judges, who focus on a variety of matters under daily basis. Arbitrators usually focus on a particular field, which means that they could be more specialised to solve the dispute according to the best interests of the parties.", "• In cross-border circumstances, arbitration provides a neutral platform for dispute resolution. For instance, one could be uncertain about getting judged in the other party’s home court. A neutral setting may be viewed as a fairer option by the parties.", "• The arbitral award is usually largely effective in terms of its enforceability. National court judgements are often not enforceable outside the territory of the state, while the arbitral award may be enforceable globally. (Max Vikman)."],
+                         rel:["N/A"]
+                       },
+                    {
+                      word: "arbitration agreement",
+                      def: ["Is a contract or a clause in a larger contract, where the parties agree to settle a dispute outside of court by an independent third party. (Emilie Earl)"],
+                      rel: ["N/A"]
+                    },
+                       {
+                         word: "avoidance",
+                         def: ["Avoidance is an element of contract law and refers to the right of a party to end the contract by their will which then releases the contracting parties of their contractual obligations. Under the CISG, the contract may be avoided if a fundamental breach occurred or if a party breached delivery or payment and still fails to perform within time allocated by aggrieved party. (Pippa Attrill)", "__________", "Avoidance refers to the Act of rendering something legally ineffective or useless, as described in Article 81(1) of CISG. (Fardowsa Aden)", "__________", "In accordance to the CISG, avoidance is a means of last resort where one of the parties decides to terminate the contract by their mere declaration. In order for a contract to be regarded as a means of last resort, it should only be used in cases of a fundamental breach of the contract. This is due to the fact that the CISG aims to preserve enforceability of the contract for as long as possible.(Kaiszia Celestine)"],
+                         rel: ["cancellation", "termination"]
+                       },
+                    {
+                      word:"bad faith",
+                      def:["Intentional dishonesty in fulfilling a contractual or legal obligation. For example, A needs a car that he can fix an extra brake to on the front passenger side in order to teach his daughter to drive, B knows this, but regardless sells him a car that does not have the possibility to add a brake, so B acted in bad faith. (Emilie Earl)"],
+                      rel:["N/A"]
+                    },
+                    {
+                      word: "battle of forms",
+                      def: ["A conflict of contradictory terms in the agreement between contractual partners. Usually resolved by interpreting the contract to the disadvantage of the party, who could have more logically avoided the conflict in terms. (Max Vikman)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "burden of proof",
+                      def: ["These are the elements that a party should present while proving an allegation before the issuing of judgment on the individual's favor. It also means the introduction of evidence to assert that the issue at hand aligns with the argument. (Fardowsa Aden)", "_________", "Generally, in order to pursue successful claims, the party, who has a burden of proof must fulfil this burden. For instance, a seller may have to provide evidence as to why they were not liable for a particular breach of duty. If sufficient evidence cannot be provided, then fault of the party is assumed. (Max Vikman)"],
+                      rel: ["N/A"]
+                    },
+                       {
+                         word: "capacity",
+                         def: ["Capacity to contract means that the person is legally capable to enter into a contract. For example. Minors have limited legal capacity to enter into contracts. (Emilie Earl)", "_________", "An individual, who lacks legal capacity is not able to conclude binding contracts, without the confirmation of their guardian. The same applies to individuals, who represent an undertaking. If they cross their scope of capacity, the contract is usually void, unless the other party knew or ought to have known about the lack of legal capacity. (Max Vikman)"],
+                         rel: ["N/A"]
+                       },
+                    {
+                      word:"cause",
+                      def:["Cause is the reason as to why a contract could be terminated. For example a contract could say that “cause” for the purpose of this agreement shall be (i) Fraud … , this would mean that if fraud is committed, then the contract can be terminated.(Emilie Marjatta Earl)"],
+                      rel:["N/A"]
+                    },
+                       {
+                         word: "caveat emptor",
+                         def: ["Is a Latin expression, which means “let the buyer beware”. In general It means that the buyer must check the quality and suitability of the goods before the purchase.(Emilie Marjatta Earl)", "_________", "This may defined as a principle where the buyer has the responsibility to ensure that the goods that they are purchase are of good quality and suitability before the purchase is made.(Kaiszia Celestine)"]
+                       },
+                    {
+                      word: "choice of law",
+                      def: ["The choice of law is a method in which the court determines whether a choice of law rule is invoked in a particular case. It only need be invoked if there is a conflict of laws, where there is more than one legal system and a different outcome from their application. On the contrary, if the same result would be achieved, it doesn’t matter which law is applied. In sales contracts, they can have a choice of forum clause which allows the parties to choose beforehand what forum the dispute will be resolved in. However, in matters where the parties have submitted a choice of forum, does not mean that the parties have agreed about the choice of law.(can have choice of forum clause and a choice of law clause.). (Kaiszia Celestine)", "__________", "Refers to the concepts or elements within the jurisdiction law that should be applied in case of any conflict within the transaction, as indicated in Article 8(3) CISG. (Fardowsa Aden)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "CISG",
+                      def: ["CISG is also known as the Vienna convention, which is an international treaty, signed by approximately 93 states, forming a commercial code for the international sales of goods. Services are excluded. (Emilie Marjatta Earl)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word:"civil code",
+                      def:["Civil code is an arrangement of private law, concerning property, family and obligations. (Emilie Earl)"],
+                      rel:["N/A"]
+                    },
+                    {
+                      word: "civil law",
+                      def: ["Civil law is based on written statues and other legal codes, unlike common law which has no written law, but relies on court judgements. In civil law court proceedings the judge must only bring forth the fact of the case and then solve the case by finding the remedies in codified law.(Emilie Marjatta Earl)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "classification of contracts",
+                      def: ["According to its form:", "Informal contract - any form which contains essential elements for its validity", "Formal contract - in the form required by the law", "->", "In regard to the involvement of the parties:", "Unilateral contract: one party has an obligation to perform an act for another party", "Bilateral contract: both parties have an obligation to fulfill their mutual promises to each other reciprocally.", "->", "In accordance to perfection:", "Consensual contract: perfected by mere consent", "Real contract: perfected by mere consent and the delivery of the object", "Solemn contract: perfected through compliance with the form required by law", "->", "With regard to its cause or purpose:", "Onerous contract: the purpose is the performance of an obligation by one party as the other party performs or has performed their own obligation.", "Remunerator contract: where the remuneration is given to the other party for a service or benefit previously rendered by the party", "Gratuitous contract: the purpose is the mere feeling by one party that the benefactor has been generous. (Kaiszia Celestine)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "codification",
+                      def: ["Codification is the process of rearranging the law of a jurisdiction in certain areas. (Emilie Marjatta Earl)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "commercial law",
+                      def: ["Commercial law is also commonly known as trade law and governs the rights and conduct of people and businesses that are trading among each other. (Emilie Earl)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "common frame of reference",
+                      def: ["It is an indication of rules and principles, which are found in the domestic legislation of states. The common frame of reference, although structurally and in terms of content resembles legislation, it does not have the same effect as binding law. (Max Vikman)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "common law tradition",
+                      def: ["Common law is a bundle of unwritten law based on court decisions and customs. (Emilie Earl)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "conciliation",
+                      def: ["Another form of alternative dispute resolution but differs from arbitration in that, like mediation, it is nonbinding on the parties. A conciliator merely proposes a solution for settling the dispute and therefore has no power to formally adjudicate. (Pippa Attrill)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "conditional sales",
+                      def: ["Refers to the sale of goods as per the given contract where buyers lack the right to take full ownership of the good until they satisfy the stated elements within the contract.Often, the ownership is passed after the payment of the last installments, although buyers may have possession and commit to acquiring its ownership. (Fardowsa Aden)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "conformity",
+                      def: ["When a contract is concluded between parties, then the goods delivered shall, according to Article 35 of the CISG, conform with the characteristics specified in the contract or be fit for the purpose which the buyer had made the seller aware of at the time of conclusion of the contract. As a seller, one of the obligations is to ensure that the goods delivered are within the satisfaction of the buyer’s, comprising “conformity”. If the goods ‘do not conform’ or in other words, the goods do not meet the quantity, quality or description of the goods as set out in the contract, then this is regarded as a breach of contract because the seller failed to fulfill their obligation. (Kaiszia Celestine)", "__________", "This refers to a condition in which goods satisfy the quality, description, and quantity indicated on the contract and that they are packaged or contained in a way that resembles the requirements within the contract, Article 35(1). (Fardowsa Aden)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "consensus ad idem",
+                      def: ["Consensus ad idem is a Latin term meaning “meeting of the minds” which refers to the mutual agreement parties must come to in order for a contract to be concluded. (Pippa Attrill)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "consensus facit legem",
+                      def: ["This is a Latin phrase which translate to 'consent makes the law'. It relates to the binding agreement between two or more parties and enforces the fact that consent is a critical component for the legality of a contract. Additionally, this consent must be free of coercion, misrepresentation, fraud or mistake, therefore, it must be free and fair. (Kaiszia Celestine)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "consent",
+                      def: ["Consent in a contract is defined as when parties agree to bind themselves to a contract freely without any threat or pressure. (Emilie Earl)", "__________", "Consent is a necessary element in the formation of a lawful contract. Consent towards accepting obligations can be provided explicitly (offer and acceptance) or implicitly (through unfolding circumstances or behaviour of an individual). (Max Vikman)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "consideration",
+                      def: ["Consideration originates from the common law system. Essentially, something of value is exchanged between parties before entering into a contract. It may be given as a promise of performance, must hold value to both parties and must be recognised by courts. (Pippa Attrill)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "contra proferentem rule",
+                      def: ["In case there is doubt about the meaning of a particular contract term, an interpretation is made at the disadvantage of the party who supplied the contract with the term causing confusion. (Max Vikman)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "contract",
+                      def: ["This may be defined as a written or spoken binding agreement that recognises and governs the rights and duties of the parties while usually being enforced by law. (Kaiszia Celestine)", "_________", "A contract is formed and is a binding agreement between two or more parties, from which you can see the rights and duties of both. You need both legitimacy and legality to form a contract, because for a contract to be enforceable it has to be legal. (Emilie Marjatta Earl)", "__________", "The elements that must be established to demonstrate the formation of a legally binding contract are:", "(1) offer", "(2) acceptance", "(3) consideration (depends). (Kaiszia Celestine)"],
+                      rel: ["sales contract", "employment contract"]
+                    },
+                    {
+                      word: "contract formalities",
+                      def: ["Contract Formalities are requirements that are needed to form a valid contract. They are a significant piece of a contract that need to be taken into account to achieve the wanted end result in a contract. The formalities are needed in case the contracting parties come to a disagreement concerning the contract terms, they are also needed if the parties wish to make changes to the contract. (Emilie Earl)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "contractual liability",
+                      def: ["Contractual liability occurs when one party of the contract agrees to be held responsible for losses and damages which may occur by the fault of another party. (Emilie Earl)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "contractual obligation",
+                      def: ["This may be defined as an obligation enforced by law between two or more parties who have an agreement. (Kaiszia Celestine)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "contractual stage",
+                      def: ["This is the stage where an agreement is formed, therefore it must consist of the following:", " (1) principle freedom of contract", "(2) principle of good faith", "(3) principle of pacta sunt servanda", "(Kaiszia Celestine)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "contractual terms",
+                      def: ["Contractual terms are conditions set by the contract, they can be specified in the contract, implied by the nature of the contract or implied by law. If the terms of the contract are breached then the party who did not commit the breach has the right to terminate the contract. (Emilie Marjatta Earl)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "counter-offer",
+                      def: ["It is an offer that is made as a way of responding to a previous offer by the counterpart while negotiating the final contract. (Fardowsa Aden)", "_________", "When the original offer is modified by the offeree to include different terms. It is then up to the original offeror to determine whether they are willing to accept the terms. (Max Vikman)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "culpa in contrahendo",
+                      def: ["This is a Latin term which means 'fault in conclusion of a contract'. It is a principle which recognizes a clear duty to negotiate with care, and not to lead a negotiating partner to act to his detriment before a firm contract is concluded."],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "damages",
+                      def: ["Includes the principle of full compensation. The suffered party must be restored to a position, where they would have been without the breach of contractual duty. (Max Vikman)", "________", "In instances, where there is a breach of contract, the breaching party is liable for damages, according to art. 74 CISG, that arise from the breach, except in cases if the breaching party can exempt itself from liability according to Article 79 CISG. In most breach of contract cases, the legal remedy is money damages. However, some contracts may result in specific performance, or an injunction.", "__________", "It is the sum of money which is adjudged or claimed to rewarded during compensation for a sustained injury, loss, or something withheld. (Fardowsa Aden)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "de jure de facto",
+                      def: ["De jure is Latin for 'by law' which means that is in accordance with law and the government, as it describes practices that are legally recognised, regardless whether the practice exists in reality. On the other hand, de facto means 'in reality' which describes situations that are true in fact, although not legally recognised. (Kaiszia Celestine)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "declaration of intent",
+                      def: ["In a contract the declaration of intent means that the parties intend to be bound by the contract and the legal obligations of that contract. (Emilie Earl)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "delivery",
+                      def: ["Means the Act of voluntarily transferring possession from one party to another. (Fardowsa Aden)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "dispatch rule",
+                      def: ["It is a contract law principle where an acceptance transforms to be effective and binding towards the offerer upon its proper mailing. On the contrary, if the offer asserts that the existing acceptance is never effective until its reception, then the dispatch rule fails to apply in such a circumstance. (Fardowsa Aden)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "duress",
+                      def: ["A party to the contract enters and performs the contract under threat by another individual. Essentially the party does not enter the contract by free choice. (Pippa Attrill)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "duties of contractual parties",
+                      def: ["Consist of primary duties, as well as secondary duties. Primary duties usually involve in delivery of the object of sale or the payment of the purchase price, while secondary duties consist of taking into account the rights, legal interests and other interests of the opposing party. (Max Vikman)", "__________", "With regard to the CISG, the obligations of the parties are:", " (A) the obligations which have been expressed or implied in the agreement of the contract", "(B) obligations based on prior practices and implied consent to usages of trade", " (C) obligations in accordance to the application of the CISG", "()Kaiszia Celestine"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "equity",
+                      def: ["This may be defined as a provision of remedies in situations in which precedent or statutory law might not apply or be 'equitable'. (Kaiszia Celestine)", "__________", "The law provides for how the judge should proceed with cases and is essential for practicing fair trials that can be judged from an objective point of view. The judge cannot have a biased perspective as this would essentially comprise interference with the individuals of the case. (Pippa Attrill)", "__________", "Equity is found in common law and concerns both fairness and justice. It came to be when the limitations of common law could not solve all issues, so equity was needed to make the right decision. (Emilie Earl)", "_________", "Principle of equity is related to the extent of obligations between contractual partners and could be reinstated if the obliagtions are at a significant imbalance. This principle is more evident in civil contracts, where the weaker party is usually defended. Imbalance is often corrected by comparing the evident contract to commonly wailing contractual practices. (Max Vikman)"],
+                      rel: ["fairness", "non-interference"]
+                    },
+                    {
+                      word: "essential elements of a contract",
+                      def: ["There are 5 essential elements of a valid contract:", " 1. Capacity: Rights & Duties; There are people who are capable of having rights, but not having duties (an underage person). The law of the contract determines whether there is capacity or not.", "2.Consent: This occurs when two parties mutually agree to form a contract with each other; Offer & Acceptance", "3. Object: The rights and obligations that the parties agree to. (Doing/ not doing something/ transferring property) We cannot sell what is not in the commerce such as organs etc.", "4. Cause: The purpose of a contract, which does not correspond to consideration.", "5. Formalities: free in, free out. Free to breach and violate a contract. Freedom is about the responsibilities and consequences. (Kaiszia Celestine)", "_________", "The elements of contract make up the contract itself and are necessary for concluding a successful contract. The elements are as following; there must be capacity to enter into the contract and thus be awarded rights and duties. Secondly, there must be consent from both parties, i.e. offer & acceptance. Thirdly, the object to the contract must include rights and obligations for both parties to adhere to and the object must thus be realistic, attainable and determinable (size, amount etc). The object can essentially be anything as long as it is lawful and recognised by the law. Then, there must be a cause for the contract as absence of cause equates to no contract. Finally, there must be formality to the contract that is established according to the contract type. (Pippa Attrill)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "essentialia negotii",
+                      def: ["Depicted as: essential elements of the contract or the basic terms, which need to be determined before a lawful contract is formed. These include: the contractual parties, the object of contract, and price. These elements can vary between contracts, depending on their purpose. (Max Vikman)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "estoppel",
+                      def: ["Estoppel is a legal principle that prevents a person from stating facts or details that oppose their earlier statements. Essentially, if a person has said one thing but then later contradicts themselves perhaps in their own favour, the court may “estop” them from continuing their changed statements. (Pippa Attrill)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "examination",
+                      def: ["The party, who receives goods has an obligation to examine the goods within a short time period to detect possible defects in the product and thus to enable a fix to be made by the opposing party. Failure to carry examinations accordingly with Article 38 results in the loss of relying on non-conformity as a base of claim. (Max Vikman)", "_________", "The Act of physically inspecting goods where the Customs attempts to identify if they attain the necessary condition, value, nature, quantity, and origin. (Fardowsa Aden)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "exculpatory clauses",
+                      def: ["It is a provision by a contract that relieves a liability party in case there is any form of damages when a contract is executed. (Fardowsa Aden)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "foreseeability",
+                      def: ["Refers to circumstances of injury that could be reasonably predictable by the contractual partner. Damage caused as a result is claimable by the suffered party. (Max Vikman)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "fraud",
+                      def: ["Intentional dishonesty prevalent in the contract at the hands of one or both of the parties. Any falsification of contractual elements. One example may be claiming to sell a designer item and charging at the retail designer price, only for the recipient to find out the item is indeed fake. (Pippa Attrill"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "freedom to contract",
+                      def: ["Includes elements such as: freedom to enter into a contract, freedom to choose a contractual partner, freedom to agree on the terms of the contract, freedom to mutually terminate a contractual relationship. (Max Vikman)", "__________", "Means that people can legally make contracts as long as there is mutual agreement and free choice. (Emilie Earl)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "fundamental breach",
+                      def: ["A fundamental breach is a concept of contract law which essentially refers to the breach at the hands of one party which causes a major inconvenience to the other party. (Pippa Attrill)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "good faith",
+                      def: ["Good faith in terms of contractual agreements could mean to take other parties’ interests into consideration. For instance, credit agreements provide an obligation to make sure that the other party is up-to date with relevant information about the terms of the contract. (Max Vikman)", "_________", "There is a general presumption in contract law, that good faith of the parties exists, where all parties are being fair and honest, so as to not destroy the right of the other party or parties to receive the benefits of the contract. (Kaiszia Celestine)", "__________", "Good faith is a principle in European Contract Law based on the assumption that the parties will enter a contract with integrity and will perform the contract without ill intent. Good faith is mentioned in many provisions in legislation. Article 7 of the CISG, for instance, states that the CISG is to be applied in such a way that the “observance of good faith in international trade” is maintained. UNIDROIT Article 1.7 also states that parties “must act in accordance with good faith” further demonstrating its importance in international disputes.", "__________", "Good faith is the Act of honesty without the intention of involving any form of deceit, fraud, or collusion. (Fardowsa Aden)"],
+                      rel: ["honesty"]
+                    },
+                    {
+                      word: "hard law",
+                      def: ["Hard law is binging law, which gives binding responsibilities to international transactions and their actors. (Emilie Earl)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "incoterms",
+                      def: ["Are standards which are used in international, but also domestic contracts in the sale of goods. Incoterms are used worldwide and define for example the obligations between the buyer and the seller. (Emilie Earl)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "intent",
+                      def: ["Intent refers to parties’ desire and exercise of will to enter into a contract. Intent is fundamental in understanding if a party knew what contract they were agreeing to. With regard to the CISG, their statements should be interpreted according to their intent and where their intent is not necessarily clearly communicated, it is interpreted according to reasonable person’s understanding or based on consideration given to prior negotiations and agreed practices between parties. (Pippa Attrill)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "interpretation of a contract",
+                      def: ["At first the contract should be interpreted according to how the parties have intended the contract to be formed. If intention cannot be stablished from the circumstances leading to the conclusion of the agreement, contract should be interpreted according to how reasonable persons of the same kind would interpret the contract in the similar circumstances. (Max Vikman)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "jurisprudence",
+                      def: ["Study relating to the theory of the law. Jurisprudence exames the interpretations and substance of the law, rather than just focusing on the law in terms of the literal meaning given in the statutes of written law, but goes deeper and derives the implications of the law. (Pippa Attrill)", "__________", "It is a theory in the philosophy of law, which explains the very basic nature of law and its role in society, while also giving us a deeper understanding of legal reasoning, legal systems and legal institutions. (Emilie Earl)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "laissez faire",
+                      def: ["Laissez faire is a Latin term providing that negotiations between private parties concluded subject to their own free will, are to be free from governmental intervention. (Pippa Attrill)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "late acceptance",
+                      def: ["Is affective if the offeror informs the other party that they are still committed to the original offer and can agree to proceed. Is also effective if in normal circumstances the offer should have arrived at the offeror without undue delay but has not arrived due to other reasons and that the offeror has not informed of its termination. (Max Vikman)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "legality",
+                      def: ["Legality in contract law means that the contract is in accordance with the law of the given jurisdiction. (Emilie Earl)"],
+                      rel: ["N/A"]
+                    },
+                    {
+                      word: "legitimacy",
+                      def: ["Something that is justifiable by logic and common, universal acceptance and understanding. National laws for instance are accepted practice by the majority and thus are considered legitimate. On the other hand, Private International Law is an example of a system that struggles to maintain legitimacy as it is subject to vast criticism regarding issues such as applicability. (Pippa Attrill)", "__________", "Legitimacy of a contract means that the person binding themselves to a contract actually has the authority to form the contract. So, for example. Peter cannot sell a stranger’s car to Steven, because he doesn’t have the authority to sell the car, therefore if he did sell it, the contract of sale would not be legitimate. (Emilie Earl)"],
+                      rel: ["N/A"]
+                    }
+  ];
+
+  // Fill the dictionary with words
+  init = function(){
+    for (var i = 0; i < dictionary.length; i++) {
+      document.getElementById('word_list').innerHTML += "<li onclick='show("+ i +")'>" + dictionary[i].word + "</li>";
+      }
+  }
+
+  // call the init function when page loads
+  init();
+
+  show = function(i){
+    document.getElementById('word_text').innerHTML = dictionary[i].word;
+    
+     var define = "";
+
+      for (var p = 0; p < dictionary[i].def.length; p++) {
+        define += "<li>" + dictionary[i].def[p] + "</li>";
+        document.getElementById('definition').innerHTML = define;
+      }
+    
+//     document.getElementById('definition').innerHTML = dictionary[i].def;
+
+    var list = "";
+
+    for (var j = 0; j < dictionary[i].rel.length; j++) {
+      list += `<li class="item">${dictionary[i].rel[j]}</li>`;
+      document.getElementById('related').innerHTML = list;
+    }
+  }
+  // show first word in the dictionary when page loads
+    show(0);
+
+  // search functionality
+  search = function() {
+    query = document.getElementById('search').value.toLowerCase()
+    console.log(query)
+
+    if (query =="") {
+      return;
+    }
+
+    found = -1; // initialize found to false
+
+    for (var i = 0; i < dictionary.length; i++) {
+      if (query == dictionary[i].word.toLowerCase()) {
+        found = i;
+        break;
+      } else {
+        document.getElementById('word_text').innerHTML = "Word not found";
+        document.getElementById('definition').innerHTML = "The word you entered is not found in our glossary";
+        document.getElementById('related').innerHTML = "No related terms";
+      }
+    }
+    if (found >=0) {
+      show(found);
+    }
+  }
+
+</script>
